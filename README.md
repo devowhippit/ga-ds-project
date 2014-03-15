@@ -6,7 +6,7 @@ Behance.net Image Analysis Project
 What can image analysis tell us about Design?
 ---------------------------------------------
 
-Using technology as a medium for design presents innovative features for predictive analysis such as usability tests and social media metrics. Often, one can judge the effectiveness and longevity of a design by reading these metrics. However, by looking at a crucial element of design, color theory, perhaps we can we can utilize a less tested metric for considering a design. What can color theory reveal about design effectiveness and longevity? Perhaps by observing, measuring, and categorizing color in relation to other metrics we can predict trends and make different kinds of meaningful insights about design.
+Using technology as a medium for design presents innovative features for predictive analysis such as usability tests and social media metrics. Often, one can judge the effectiveness and longevity of a design by reading these metrics. However, by looking at design principles, such as color theory, perhaps we can we can discover something for considering good design. What can color theory reveal about design effectiveness and longevity? Perhaps by observing, measuring, and categorizing color in relation to other metrics we can predict trends and make different kinds of meaningful insights about design.
 
 ### Getting the Data
 
