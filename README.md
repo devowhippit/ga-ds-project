@@ -12,14 +12,14 @@ Using technology as a medium for design presents innovative features for predict
 
 The data is collected from the Social/Professional Creative network [Behance.net][1]. [Through the developer API][2] I gathered sets of images for for projects based on the following query parameters;
 
-* Sort            : Featured Date
-* Time            : All, Month, Day
-* Creative Fields : Graphic Design
+* `Sort            : Featured Date`
+* `Time            : All, Month, Day`
+* `Creative Fields : Graphic Design`
 
 I did three separate queries for time; All, month, and day, to get a variance of time ranges. Additionally, I did one query representing a major color in the ROYGBIV color spectrum. The color range parameter buffered the search and collected projects around the major color. 
 
-* Color Values : d10000, ff6622, ffda21, 33dd00, 1133cc, 220066, 330044
-* Color Range  : 20
+* `Color Values : d10000, ff6622, ffda21, 33dd00, 1133cc, 220066, 330044`
+* `Color Range  : 20`
 
 ![Results of the Query Analysis][queryresult]
 ![Thumbnail of Collected Projects][projects]
