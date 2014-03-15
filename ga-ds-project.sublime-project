@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"exp-behance/wp-content/themes/roots"
+			],
+			"follow_symlinks": true,
+			"path": "."
+		}
+	]
+}

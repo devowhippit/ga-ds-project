@@ -1,0 +1,628 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"erro",
+				"error_reporting"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"para",
+				"parameters"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"data",
+				"data_matrix"
+			],
+			[
+				"all",
+				"all_brand_scores"
+			],
+			[
+				"other",
+				"other_brand"
+			],
+			[
+				"distance",
+				"distance_function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1913,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "exp-behance-py/templates/exp-behance-presentation.html",
+			"settings":
+			{
+				"buffer_size": 2919,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 58.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/project/proposal-2.rtf",
+		"/Users/devowhippit/Dropbox/Enviroments/swnyc/the-raleigh/trunk/content/themes/the-raleigh/js/jquery.sldr.js",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-py/static/css/main.css",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-py/static/data/hist_memory.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-py/static/data/color_memory.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-py/static/data/projectbyid.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-py/static/js/main.js",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-py/templates/exp-behance.html",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-py/index.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/be_scanimage.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-py/templates/exp-behance-presentation.html",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/GADS7/src/lesson12/kmeans/kmeans_exercise_final.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/classwork/kmeans/kmeans_exercise.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/GADS7/src/lesson12/kmeans/kmeans_exercise.py",
+		"/Users/devowhippit/Dropbox/Enviroments/swnyc/atlas/app/webroot/js/graphs.js",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/wp-content/plugins/exp-behance/exp-behance.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/wp-content/plugins/behance-and-wordpress/behance-and-wordpress.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-php/exp. Behance.html",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-php/index.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-php/exp-behance.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/.gitmodules",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/wp-content/themes/roots/page-behance-demo.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/be_organizebyid.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/be_histogram.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/be_organizebyimage.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-py/static/data/projectbyimage.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/be_downloadimages.py",
+		"/Users/devowhippit/Dropbox/Enviroments/swnyc/the-raleigh/trunk/content/themes/the-raleigh/js/main.js",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/wp-content/cache/be_projects_graphic+design_33dd00_1.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/exp-behance-py-static/index.html",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/color_memory.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/be_coversize.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/wp-content/cache/be_projects_graphic+design_month_18.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/be_avgapprcomm.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/exp-behance-py-static/assets/main.js",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/exp-behance-py-static/exp. Behance.html",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/exp-behance-py-static/exp. Behance_files/main.js",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-py/data/hist_memory.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/hist_memory.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/wp-content/cache/be_projects_graphic+design_330044_7.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance-py/hist_memory.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/wp-config-sample.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/wp-config.php",
+		"/Users/devowhippit/Dropbox/Enviroments/swnyc/sonyrewards/helpers.php",
+		"/Users/devowhippit/Dropbox/Enviroments/swnyc/the-raleigh/trunk/content/themes/the-raleigh/lib/image_filter_hook.php",
+		"/Users/devowhippit/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/devowhippit/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/wp-content/themes/roots/assets/css/forms.css",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/wp-content/themes/roots/assets/css/grid.css",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/wp-content/plugins/exp-behance/data/country-list.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/wp-content/plugins/behance-and-wordpress/_behance-and-wordpress.php",
+		"/Users/devowhippit/Dropbox/Enviroments/swnyc/the-raleigh/trunk/content/themes/the-raleigh/lib/custom-post-types.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/be_download_images.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/wp-content/themes/roots/index.php",
+		"/Users/devowhippit/Downloads/morris.js-0.4.3/morris.js",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/exp-behance/.gitmodules",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/wp-content/plugins/exp-behance/js/main.js",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/wp-content/themes/roots/page-home.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/wp-content/themes/roots/assets/css/forms.css",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/wp-content/themes/roots/lib/custom.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/wp-content/themes/roots/assets/css/grid.css",
+		"/Users/devowhippit/Dropbox/Enviroments/exp/exp.com/wp-content/themes/exp/_/exp-helpers.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/wp-content/themes/roots/assets/css/main.css",
+		"/Users/devowhippit/Dropbox/Enviroments/clients/youngwild.com/.gitmodules",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/wp-content/plugins/behance-and-wordpress/behance-and-wordpress.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/wp-content/plugins/exp-behance/exp-behance.php",
+		"/Users/devowhippit/Dropbox/Enviroments/swnyc/the-raleigh/trunk/content/themes/the-raleigh/functions.php",
+		"/Users/devowhippit/Dropbox/Enviroments/swnyc/atlas/.gitignore",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/wp-content/cache/f437c63e02fdbf4be5e6b6c67603c9a295404dd4.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/wp-content/cache/be_cache_fields.json",
+		"/Users/devowhippit/Dropbox/Enviroments/swnyc/sonyrewards/assets/css/main.css",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/wp-content/plugins/country-list.json",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/wp-content/plugins/exp-behance.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/wp-content/themes/roots/index.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/index.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/ga-ds-project/tests/exp-behance.php",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/classwork/kmeans/test_k_means.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/classwork/lemon_prediction/lemon_prediction.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/classwork/image_classification_ex/query_bing_images.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/classwork/image_classification_ex/classify_ex.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/class project proposal.rtf",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/assignments/assign_01/index.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/classwork/credit_prediction.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/lessons/08/nb_template.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/classwork/random_forests_inclass.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/classwork/lemon_prediction/data/data_dictionary.csv",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/lessons/08/main.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/myGADS7/lessons/08/notes.txt",
+		"/Users/devowhippit/.ipython/profile_default/ipython_notebook_config.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/GADS7/src/lesson08/nb_template.py",
+		"/Users/devowhippit/Dropbox/Enviroments/ga/GADS7/src/lesson08/main.py"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cache",
+			"wp-content/cache",
+			"add_action",
+			"./exp. Behance_files",
+			"http://local.behance.com/wp-content/themes/roots/",
+			"http://local.behance.com/wp-content/plugins/exp-behance",
+			"h1",
+			"h2",
+			"rgbred",
+			"spacegraybgcolor",
+			"darken",
+			", 'lightgrey' , 0.6",
+			"opacity",
+			"69",
+			"(",
+			")",
+			"darken",
+			"= ",
+			"=",
+			": ",
+			"p",
+			"console.log",
+			"8398347",
+			"'",
+			" $( '#main' )",
+			"_colorgrid",
+			"data-",
+			"sortByKey( _colorarray , ",
+			"_colorstring",
+			"string",
+			"_colorstring",
+			"-",
+			"+'\"'",
+			"'\"'+",
+			"=",
+			"filter",
+			"$( '#color-grid' )",
+			"_colors",
+			"edd633b87c073ac0460f1f216e785bdf.jpeg",
+			"4284b4a322bc69b589b02d1593a6e171.jpeg",
+			"_histmemory",
+			"10",
+			"p",
+			"ffffff",
+			"fffff",
+			"ffff",
+			"fff",
+			"ff",
+			"#ba4b33",
+			"ff66b6a582637f584495d87dab03962c.jpg",
+			"ff921bc2bef96fd24a2d4918f549117b.png",
+			"ffbce52f2a85f2a933a8d2123a6084b1.jpg",
+			"ffedb990bff154a853919963c89c1f5d.jpeg",
+			"\"0000a6a411d7ccedd97b62d7d5d51ee9.jpeg",
+			": ",
+			"p",
+			"http://127.0.0.1:5000/static/css/",
+			"./assets",
+			"exp. Behance_files",
+			"./exp. Behance_files/",
+			"h2",
+			"for projects",
+			":",
+			";",
+			"$",
+			": ",
+			"\\'",
+			"bucketsnms[i]",
+			"[0]",
+			"],",
+			"[",
+			"}",
+			"{",
+			"_bucket01",
+			";",
+			"]'",
+			"],",
+			" ],",
+			" , ",
+			"[ ",
+			"[",
+			": ",
+			"bucket01nms",
+			"bucketone",
+			"data",
+			"_01",
+			"_buck",
+			"_",
+			"( ",
+			" , ",
+			" )",
+			" = ",
+			", b:1",
+			"'></script>",
+			"<script type='text/javascript' src='/static/",
+			" : ",
+			"}",
+			"},",
+			"].",
+			"']",
+			"9,",
+			"]' ,",
+			"x : '[",
+			"].",
+			"]",
+			": _",
+			":",
+			"X",
+			".length",
+			"}",
+			".length",
+			"_buckets",
+			"',",
+			",",
+			"}",
+			"'[",
+			"]",
+			",",
+			"[",
+			": ",
+			" ,",
+			"]",
+			"=",
+			"key",
+			"[79, 70]",
+			"[499999, 400000]",
+			"[99999, 0]",
+			"[9999, 0]"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</option>",
+			"<option>",
+			"\n		<li"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1913,
+								1913
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "exp-behance-py/templates/exp-behance-presentation.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2528,
+								2081
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 227.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "ga-ds-project.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

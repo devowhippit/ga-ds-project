@@ -48,77 +48,13 @@ $be_helpers = array(
 
 );
 
-// Personal Portfolio
-// $APP_NAME          = 'Personal Portfolio';
-// $API_KEY_CLIENT_ID = 'S9ISvMy4MgV4cXvijnbIQOqtj9gTtVI0';
-// $CLIENT_SECRET     = '_d4WB4R.VV1_VL5qcCy1nYZGujY7nJN6';
-// $REDIRECT_URI      = 'http://www.devonhirth.com';
-
-if ( call_user_func( $be_helpers[ 'islocal' ] ) ) :
-	// Development
-	$APP_NAME          = 'Behance Data Analysis Development';
-	$API_KEY_CLIENT_ID = 'aeFHYbSwjcIAeYt4t9drudDpiJoQRZgz';
-	$CLIENT_SECRET     = 'u._702YppKBocNIyuMTGe4m942cx9QCJ';
-elseif ( call_user_func( $be_helpers[ 'isdev' ] ) ) :
-	// Stage
-	$APP_NAME          = 'Behance Data Analysis Staging';
-	$API_KEY_CLIENT_ID = 'xHM0ruMO9nggYfH8DzBQx9iwrVATN4yp';
-	$CLIENT_SECRET     = 'NZoD0e.0IxuLrJg_n4f0RwqI_p6E8r5G';
-else :
-	// Production
-	$APP_NAME          = 'Behance Data Analysis';
-	$API_KEY_CLIENT_ID = 'RvmuO4ai2TetDEBKKn2SJDwQ3iMM0LNZ';
-	$CLIENT_SECRET     = 'dIDenw6S4Yr1LRLEgh9KdyGunI_ZHicZ';
-endif;
-
-// Red
-// $APP_NAME          = 'Behance Data Analysis d10000';
-// $API_KEY_CLIENT_ID = 'C0SEGo1RNvGzFgIz8hHgHViokj36Z5R9';
-// $CLIENT_SECRET     = '1AwDueQWtdqzsOEn9IqOXj6ul0LRonSQ';
-
-// Orange
-// $APP_NAME          = 'Behance Data Analysis ff6622';
-// $API_KEY_CLIENT_ID = 'hAVq0ImQ2aNnR4SHhX9z6Wkv8xceQie7';
-// $CLIENT_SECRET     = 'cNIuCeGr7jNpd7nfkhaS1uYNPR8IFvrb';
-
-// Yellow
-// $APP_NAME          = 'Behance Data Analysis ffda21';
-// $API_KEY_CLIENT_ID = 'vfjtcQvwMpdEek53M8hJlLwACYgSevB8';
-// $CLIENT_SECRET     = 'gTOaSslB6J7T_UIoiJ2gdL7d8aED.ZNJ';
-
-// Green
-// $APP_NAME          = 'Behance Data Analysis 33dd00';
-// $API_KEY_CLIENT_ID = 'SL2j3uuir3PkTyOkP6aBNBXjz2Fj0nii';
-// $CLIENT_SECRET     = 'oWtf37ugLubqqrdKsjC5k52OAjiHQYxz';
-
-// Blue
-// $APP_NAME          = 'Behance Data Analysis 1133cc';
-// $API_KEY_CLIENT_ID = 'ICHYA5zde2CjaDBRwIlfmPBvvJDOnE9J';
-// $CLIENT_SECRET     = '1cowumDl3B9gQimWMuoSCyTLX.L8k7TP';
-
-// Indigo
-// $APP_NAME          = 'Behance Data Analysis 220066';
-// $API_KEY_CLIENT_ID = 'voDe3OmYIMw8Qaeru7jYwM3SCtgYGYfs';
-// $CLIENT_SECRET     = 'Cd07DSWOxgBGFUZlWCF8ls5EfwNS9lbg';
-
-// Violet
-// $APP_NAME          = 'Behance Data Analysis 330044';
-// $API_KEY_CLIENT_ID = 'WxYTyflwBvaaq0VeAx9qXVsvk9ZY7BXJ';
-// $CLIENT_SECRET     = '0RU5fhEWgQ3byZU8RFYE2LdKoLz3Kw5Z';
+require 'keys.php';
 
 $USER          = 'devonhirth';
 $REDIRECT_URI  = 'http://expbehance.devonhirth.com/';
 $GETVARS       = $_GET;
 $ROYGBIV       = array( 'd10000' , 'ff6622' , 'ffda21' , '33dd00' , '1133cc' , '220066' , '330044' );
-$ROYGBIV_KEYS  = array( 
-	'C0SEGo1RNvGzFgIz8hHgHViokj36Z5R9', 
-	'hAVq0ImQ2aNnR4SHhX9z6Wkv8xceQie7', 
-	'vfjtcQvwMpdEek53M8hJlLwACYgSevB8', 
-	'SL2j3uuir3PkTyOkP6aBNBXjz2Fj0nii', 
-	'ICHYA5zde2CjaDBRwIlfmPBvvJDOnE9J', 
-	'voDe3OmYIMw8Qaeru7jYwM3SCtgYGYfs', 
-	'WxYTyflwBvaaq0VeAx9qXVsvk9ZY7BXJ' 
-);
+
 $APP_NAMES = array( 
 	'Behance Data Analysis d10000', 
 	'Behance Data Analysis ff6622', 

@@ -16,3 +16,6 @@ xcuserdata
 # svn & cvs
 .svn
 CVS
+
+exp-behance-php/cache
+exp-behance-php/keys.php
