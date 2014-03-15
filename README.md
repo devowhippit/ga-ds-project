@@ -39,10 +39,24 @@ What was found by plotting the stats of each project made sense; projects with a
 
 ### Color Analysis
 
+In order to compare color features I wanted to disect the images gathered and find out the most frequent colors used in each image. Using a [K-Means Clustering technique][7], I was able to build a dataset that extracted the five most frequent colors in each project cover photo. 
+
 ![Color Distribution][colordistribution]
+
+With the colors gathered, the same project stats data as before against their corresponding color data.
+
 ![Project Stats Comparison][projectsbyviews]
 ![Project Stats Comparison by Colors][projectsbycolors]
 
+### Tools
+
+* Dataset: [Behance Developer API][2]
+* Plotting Library: [Morris.js][3]
+* Demo Color Picker: [Farbtastic Color Picker][6]
+* JSON Visualiser: [Chrome JSONView][5]
+* Python Framework: [Flask][6]
+* K-Means Clustering Technique: [PIL and Scipy's Cluster Package][7]
+* Javascript Color Manipulator: [xcolor][4]
 
 [1]: https://www.behance.net/                                                                      "Behance.net"
 [2]: https://www.behance.net/dev                                                                   "Behance Developer API"
