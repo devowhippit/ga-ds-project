@@ -3,9 +3,8 @@ ga-ds-project
 
 Behance.net Image Analysis Project
 
-Objective: 
 What can image analysis tell us about Design?
--------------------------------------------------------- 
+---------------------------------------------
 
 Using technology as a medium for design presents innovative features for predictive analysis such as usability tests and social media metrics. Often, one can judge the effectiveness and longevity of a design by reading these metrics. However, by looking at a crucial element of design, color theory, perhaps we can we can utilize a less tested metric for considering a design. What can color theory reveal about design effectiveness and longevity? Perhaps by observing, measuring, and categorizing color in relation to other metrics we can predict trends and make different kinds of meaningful insights about design.
 
@@ -25,16 +24,25 @@ I did three separate queries for time; All, month, and day, to get a variance of
 ![Results of the Query Analysis][queryresult]
 ![Thumbnail of Collected Projects][projects]
 
-In all, I had 11 different queries. I made about 30 calls per query which gave me a total of 4,000 projects to analyze. I created a page to view the results and do some basic plotting of what I had collected. After examining the data I formulated the following questions to try to answer with the data;
+In all, there were 11 different queries with about 30 calls per query resulting in a total of 4,000 projects to analyze. [Here is a page to view the results][9] with some basic plotting of the stats in each collection. After examining the data I formulated the following questions to try to answer with the data;
 
 * Is there a correlation between high project views and thumbnail content?
 * Is there a predictive curve for appreciations and comments based on the thumbnail content?
 
-The results of my data collection can be viewed [here][9].
-
 ### Plotting Views against appreciations, comments, and colors.
 
-In order to try and answer some of the big questions
+In order to try and answer some of these questions I wanted to look at the project stats overall and compare it to the color features that were collected. The data was cached in .json files locally width each query having it's own file so a lot of time was spent combining and organizing the data in a way that was more easily digestable by the plotting scripts.
+
+![Project Stats Comparison][projectsbyviews]
+
+What was found by plotting the stats of each project made sense; projects with a large amount of views also have the largest average of 'appreciations' and 'comments.'
+
+### Color Analysis
+
+![Color Distribution][colordistribution]
+![Project Stats Comparison][projectsbyviews]
+![Project Stats Comparison by Colors][projectsbycolors]
+
 
 [1]: https://www.behance.net/                                                                      "Behance.net"
 [2]: https://www.behance.net/dev                                                                   "Behance Developer API"
@@ -49,3 +57,6 @@ In order to try and answer some of the big questions
 [queryresult]: queryresult.png                   "Results of the Query Analysis"
 [projects]: projects.png                         "Thumbnail of Collected Projects"
 [projectcoloranalysis]: projectcoloranalysis.png "Project Color Analysis"
+[projectsbycolors]: projectsbycolors.png         "Project Stats Comparison by Colors"
+[projectsbyviews]: projectsbyviews.png           "Project Stats Comparison"
+[colordistribution]: colordistribution.png       "Color Distribution"

@@ -58,8 +58,8 @@ var routes = {
       /**
        *
        */
-      $.getJSON( "/static/data/projectbyimage.json" , function( _projects ) {
-        $.getJSON( "/static/data/projectbyid.json" , function( _projectsid ) { 
+      $.getJSON( "static/data/projectbyimage.json" , function( _projects ) {
+        $.getJSON( "static/data/projectbyid.json" , function( _projectsid ) { 
           getColors( _projects , _projectsid );
         });
       });
@@ -70,7 +70,7 @@ var routes = {
        */
       function getColors( _projects , _projectsid ) {
 
-        $.getJSON( "/static/data/color_memory.json" , function( _colors ) {
+        $.getJSON( "static/data/color_memory.json" , function( _colors ) {
           hist( _projects , _projectsid , _colors );
         });
 
@@ -175,7 +175,7 @@ var routes = {
         //   $colorgrid.isotope( { sortBy : sortValue } );
         // });
 
-        $.getJSON( "/static/data/hist_memory.json" , function( _data ) { 
+        $.getJSON( "static/data/hist_memory.json" , function( _data ) { 
           
           var buckets = _data[ "buckets" ];
           var _bucket = [];

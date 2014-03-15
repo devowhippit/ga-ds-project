@@ -1,27 +1,24 @@
 # Flask imports
-
 import sys
 
 from flask import Flask, url_for, render_template
-
 # from flaskext.flatpages import FlatPages
-# from flask_frozen import Freezer
+from flask_frozen import Freezer
 
 # DEBUG = True
 # FLATPAGES_AUTO_RELOAD = DEBUG
 # FLATPAGES_EXTENSION = '.html'
+FREEZER_DEFAULT_MIMETYPE = 'text/html'
+FREEZER_IGNORE_MIMETYPE_WARNINGS = True
 
 app = Flask(__name__)
-# freezer = Freezer(app)
+# pages = FlatPages(app)
+freezer = Freezer(app)
 
 
 @app.route( '/behance-stats-comparison' )
 def hello_world() :
 	return render_template( 'exp-behance.html' )
-
-@app.route( '/behance-presentation' )
-def presentation() :
-	return render_template( 'exp-behance-presentation.html' )
 
 with app.test_request_context() :
 	# print url_for('static',filename='lib/farbtastic/farbtastic.css')
@@ -41,8 +38,8 @@ with app.test_request_context() :
 
 if __name__ == '__main__' :
 	# app.debug = True
-	# if len(sys.argv) > 1 and sys.argv[1] == "build":
-	# 	freezer.freeze()
-	# else:
-	# 	app.run( debug = True )
-	app.run( debug = True )
+	if len(sys.argv) > 1 and sys.argv[1] == "build":
+		freezer.freeze()
+	else:
+		app.run( debug = True )
+	# app.run( debug = True )
