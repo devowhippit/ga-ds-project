@@ -1,0 +1,107 @@
+form {
+   /*border: 1px solid #ffffff;
+   background: #ffffff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+   background: -webkit-linear-gradient(top, #ffffff, #ffffff);
+   background: -moz-linear-gradient(top, #ffffff, #ffffff);
+   background: -ms-linear-gradient(top, #ffffff, #ffffff);
+   background: -o-linear-gradient(top, #ffffff, #ffffff);
+   background-image: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   font-family: 'Helvetica Neue',Helvetica,sans-serif;
+   text-decoration: none;
+   vertical-align: middle;*/
+   /*min-width:300px;*/
+   /*padding:20px;*/
+   /*width:300px;*/
+   padding: 1.38889% 0;
+   }
+input,
+select {
+   -webkit-appearance:none;
+   line-height: 14px;
+   border: 1px solid #c2c2c2;
+   background: #ffffff;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #000000;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   /*width:280px;*/
+   }
+input:focus {
+   background: #dedede;
+   color: #000000;
+   }
+.form-container h2 {
+   text-shadow: #ffffff 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+.form-title {
+   margin-bottom:10px;
+   color: #000000;
+   text-shadow: #ffffff 0 1px 0;
+   }
+.submit-container {
+   margin:8px 0;
+   text-align:right;
+   }
+input[type="submit"] {
+   border: 1px solid #d1d1d1;
+   background: #d1d1d1;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#d1d1d1));
+   background: -webkit-linear-gradient(top, #ffffff, #d1d1d1);
+   background: -moz-linear-gradient(top, #ffffff, #d1d1d1);
+   background: -ms-linear-gradient(top, #ffffff, #d1d1d1);
+   background: -o-linear-gradient(top, #ffffff, #d1d1d1);
+   background-image: -ms-linear-gradient(top, #ffffff 0%, #d1d1d1 100%);
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #ffffff 0 1px 0;
+   color: #000000;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+input[type="submit"]:hover {
+   border: 1px solid #d1d1d1;
+   text-shadow: #ffffff 0 1px 0;
+   background: #bdbdbd;
+   background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#bdbdbd));
+   background: -webkit-linear-gradient(top, #e6e6e6, #bdbdbd);
+   background: -moz-linear-gradient(top, #e6e6e6, #bdbdbd);
+   background: -ms-linear-gradient(top, #e6e6e6, #bdbdbd);
+   background: -o-linear-gradient(top, #e6e6e6, #bdbdbd);
+   background-image: -ms-linear-gradient(top, #e6e6e6 0%, #bdbdbd 100%);
+   color: #000000;
+   }
+input[type="submit"]:active {
+   text-shadow: #ffffff 0 1px 0;
+   border: 1px solid #447314;
+   background: #6b6b6b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#a3a3a3), to(#bdbdbd));
+   background: -webkit-linear-gradient(top, #a3a3a3, #6b6b6b);
+   background: -moz-linear-gradient(top, #a3a3a3, #6b6b6b);
+   background: -ms-linear-gradient(top, #a3a3a3, #6b6b6b);
+   background: -o-linear-gradient(top, #a3a3a3, #6b6b6b);
+   background-image: -ms-linear-gradient(top, #a3a3a3 0%, #6b6b6b 100%);
+   color: #000000;
+   }

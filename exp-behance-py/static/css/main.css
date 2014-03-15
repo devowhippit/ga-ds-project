@@ -1,0 +1,46 @@
+.thumbnails h4 {
+	min-height: 60px;
+}
+.text-wrap {
+	min-height: 180px;
+}
+#be_form {
+	min-height: 415px;
+}
+#be_form .txt-wrap {
+   min-height: 100px;
+}
+#colorpicker {
+   clear: both;
+   padding: 0 0 15px;
+}
+#colorpicker > div {
+   margin: 0 auto;
+}
+.charts {
+	margin: 20px 0 80px;
+}
+.color-grid {
+	line-height: 0;
+	margin: 25px 0 50px;
+}
+.color-grid > div {
+	width: 5px;
+	height: 5px;
+	/*border-radius: 100%;*/
+	/*margin: 1px;*/
+	overflow: hidden;
+	display: inline-block;
+	/*border: 1px solid #EFEFEF;*/
+}
+
+.inline li {
+	display: inline-block;
+}
+
+#loading {
+	position: absolute;
+	right: 0;
+	/*width: 100%;
+	text-align: right;*/
+}

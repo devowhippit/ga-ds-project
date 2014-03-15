@@ -1,0 +1,3 @@
+[submodule "exp. roots"]
+      path = exp-behance-wordpress/wp-content/themes/roots
+      url = git@devonhirth.beanstalkapp.com:/devonhirth/exp-roots.git
